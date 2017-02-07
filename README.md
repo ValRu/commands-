@@ -10,4 +10,4 @@ returns ip of container
 
 
 ### windows
-`echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd` 
+`echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd`  then you can use `netstat -a -b | grep svchost`
