@@ -4,6 +4,10 @@
 removes all feature branches from remote (origin)
 
 
-##docker 
+## docker 
 `docker inspect --format="{{.NetworkSettings.Networks.nat.IPAddress}}" containername `
 returns ip of container 
+
+
+### windows
+`echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd` 
