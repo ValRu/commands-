@@ -11,3 +11,5 @@ returns ip of container
 
 ### windows
 `echo findstr %1 %2 %3 %4 %5 > %systemroot%\grep.cmd`  then you can use `netstat -a -b | grep svchost`
+
+`Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control" -Name "ServicesPipeTimeout" -Value "60000"` increases strarting timeout for windows services
