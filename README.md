@@ -19,4 +19,4 @@ returns ip of container
 
 ## grep
 
-`grep -r 'AppFabric' . --include='*.config' | grep 'Live'` search word `AppFabric` in all *.config files and then shows lines with `Line` word 
+`grep -r 'AppFabric' . --include='*.config' | grep 'Live'` searches `AppFabric` word in all *.config files and then shows lines with `Line` word 
