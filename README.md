@@ -18,6 +18,8 @@ returns ip of container
 
 `Get-EventLog -Newest 15 -LogName "Application"` gets latest events from EventViewer -> Windows Logs -> Application
 
+`query user`  returns a list of logged on users
+
 
 ## grep
 
