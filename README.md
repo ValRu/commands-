@@ -14,8 +14,10 @@ returns ip of container
 
 `Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control" -Name "ServicesPipeTimeout" -Value "60000"` increases strarting timeout for windows services
 
-
 `gwmi win32_loggedonuser  | select Antecedent` returns the list with active users
+
+`Get-EventLog -Newest 15 -LogName "Application"` gets latest events from EventViewer -> Windows Logs -> Application
+
 
 ## grep
 
