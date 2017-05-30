@@ -20,6 +20,9 @@ returns ip of container
 
 `query user`  returns a list of logged on users
 
+## kubernetes
+
+`kubectl exec -it podsname  -- /bin/bash` starts the bash in specific pod
 
 ## grep
 
