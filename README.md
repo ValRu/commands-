@@ -3,6 +3,8 @@
 `git push origin --delete $(git branch -r | grep feature | cut -c10-100)`
 removes all feature branches from remote (origin)
 
+`git reflog -1 | sed 's/^.*: //'` shows a message of the last commit
+
 
 ## docker 
 `docker inspect --format="{{.NetworkSettings.Networks.nat.IPAddress}}" containername `
