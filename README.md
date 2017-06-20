@@ -29,3 +29,6 @@ returns ip of container
 ## grep
 
 `grep -r 'AppFabric' . --include='*.config' | grep 'Live'` searches `AppFabric` word in all *.config files and then shows lines with `Live` word 
+
+## sed
+` sed -i 's/$OLD/new/g' filename.txt` updates all $OLD to "new" in the file
