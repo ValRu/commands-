@@ -32,3 +32,6 @@ returns ip of container
 
 ## sed
 ` sed -i 's/$OLD/new/g' filename.txt` updates all $OLD to "new" in the file
+
+## kong
+`curl -i -X POST http://localhost:8001/apis -d "name=default" -d "uris=/" -d "upstream_url=http://localhost:8001/status"` adding new api to kong 
