@@ -26,6 +26,8 @@ returns ip of container
 
 `kubectl exec -it podsname  -- /bin/bash` starts the bash in specific pod
 
+`kubectl get pod -l "name=kong-rc" -o jsonpath='{.items[0].metadata.name}'` gets the name of pod by name without 'pods' at the beggining
+
 ## grep
 
 `grep -r 'AppFabric' . --include='*.config' | grep 'Live'` searches `AppFabric` word in all *.config files and then shows lines with `Live` word 
