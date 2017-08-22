@@ -24,6 +24,9 @@ returns ip of container
 
 ## kubernetes
 
+
+`kubectl run curl2 --image=radial/busyboxplus:curl -i --tty --rm` runs curl container in kubernetes cluster
+
 `kubectl exec -it podsname  -- /bin/bash` starts the bash in specific pod
 
 `kubectl get pod -l "name=kong-rc" -o jsonpath='{.items[0].metadata.name}'` gets the name of pod by name without 'pods' at the beggining
