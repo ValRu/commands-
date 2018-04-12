@@ -44,3 +44,6 @@ returns ip of container
 
 ## kong
 `curl -i -X POST http://localhost:8001/apis -d "name=default" -d "uris=/" -d "upstream_url=http://localhost:8001/status"` adding new api to kong 
+
+## Centos
+`sudo systemctl restart nginx` restart nginx
