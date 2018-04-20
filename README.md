@@ -47,3 +47,6 @@ returns ip of container
 
 ## Centos
 `sudo systemctl restart nginx` restart nginx
+
+
+`setsebool -P haproxy_connect_any=1` 
