@@ -50,3 +50,6 @@ returns ip of container
 
 
 `setsebool -P haproxy_connect_any=1` 
+
+## Regex
+`.*(?<!Error)$` returns string not ending with `Error`
