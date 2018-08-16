@@ -33,6 +33,8 @@ returns ip of container
 
 `kubectl exec -it $(kubectl get pods -l app=cassandra -o name | sed -n 1p | sed 's/pods\///') ls` runs command on the first pod that it can find with specific labels 
 
+` kubectl port-forward svc/weave-scope-app  5000:80 -n weave` creates port forwarding from localhost:5000 to svc/weave-scope-app:80
+
 ## grep
 
 `grep -r 'AppFabric' . --include='*.config' | grep 'Live'` searches `AppFabric` word in all *.config files and then shows lines with `Live` word 
